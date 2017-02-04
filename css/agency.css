@@ -235,7 +235,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: #acacac;
 }
 header .intro-text {
   padding-top: 100px;
@@ -251,6 +251,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  padding-top: 20px;
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
