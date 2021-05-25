@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the buttons to show and/or close the dialog window.</p>
+
+<button onclick="showDialog()">Show dialog</button>
+<button onclick="closeDialog()">Close dialog</button>
+
+<p><b>Note:</b> The dialog element is only supported in Chrome 37+, Safari 6+ and Opera 24+.</p>
+
+<dialog id="myDialog">This is a dialog window</dialog>
+
+<script>
+var x = document.getElementById("myDialog"); 
+
+function showDialog() { 
+  x.show(); 
+} 
+
+function closeDialog() { 
+  x.close(); 
+} 
+</script>
+
+</body>
+</html>
