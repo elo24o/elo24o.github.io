@@ -2,26 +2,25 @@
 <html>
 <body>
 
-<p>Click the buttons to show and/or close the dialog window.</p>
+<ul id="myList">
+  <li>Coffee</li>
+  <li>Tea</li>
+</ul>
 
-<button onclick="showDialog()">Show dialog</button>
-<button onclick="closeDialog()">Close dialog</button>
+<p>Click the button to append an item to the end of the list.</p>
 
-<p><b>Note:</b> The dialog element is only supported in Chrome 37+, Safari 6+ and Opera 24+.</p>
-
-<dialog id="myDialog">This is a dialog window</dialog>
+<button onclick="myFunction()">Try it</button>
 
 <script>
-var x = document.getElementById("myDialog"); 
-
-function showDialog() { 
-  x.show(); 
-} 
-
-function closeDialog() { 
-  x.close(); 
-} 
+function myFunction() {
+  var node = document.createElement("LI");
+  var textnode = document.createTextNode("Water");
+  node.appendChild(textnode);
+  document.getElementById("myList").appendChild(node);
+}
 </script>
+
+<p><strong>Note:</strong><br>First create an LI node,<br> then create a Text node,<br> then append the Text node to the LI node.<br>Finally append the LI node to the list.</p>
 
 </body>
 </html>
