@@ -10,8 +10,9 @@
         "details": [ 
             { 
                 "appID": "X4S8Y52JU5.com.onetwotrail", 
-                "paths": [  "/v1/users/password/edit",  "/users/password/edit ] 
+                "paths": [  "/v1/users/password/edit",  "/users/password/edit" ] 
             }
         ] 
     } 
 }
+
